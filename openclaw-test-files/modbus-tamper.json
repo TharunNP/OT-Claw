@@ -1,0 +1,905 @@
+{
+  "engagement_timestamp": "2026-05-02T15:12:56.757949",
+  "target": "192.168.1.95:502",
+  "unit_id": 1,
+  "changes": {
+    "holding_registers": [
+      {
+        "address": 0,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 20567,
+        "after_hex": "0x5057",
+        "function_code": "FC16"
+      },
+      {
+        "address": 1,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 20019,
+        "after_hex": "0x4e33",
+        "function_code": "FC16"
+      },
+      {
+        "address": 2,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 17440,
+        "after_hex": "0x4420",
+        "function_code": "FC16"
+      },
+      {
+        "address": 3,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 16985,
+        "after_hex": "0x4259",
+        "function_code": "FC16"
+      },
+      {
+        "address": 4,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 8267,
+        "after_hex": "0x204b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 5,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 18764,
+        "after_hex": "0x494c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 6,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 19521,
+        "after_hex": "0x4c41",
+        "function_code": "FC16"
+      },
+      {
+        "address": 7,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 21536,
+        "after_hex": "0x5420",
+        "function_code": "FC16"
+      },
+      {
+        "address": 8,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 12848,
+        "after_hex": "0x3230",
+        "function_code": "FC16"
+      },
+      {
+        "address": 9,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 12854,
+        "after_hex": "0x3236",
+        "function_code": "FC16"
+      },
+      {
+        "address": 10,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 11568,
+        "after_hex": "0x2d30",
+        "function_code": "FC16"
+      },
+      {
+        "address": 11,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 13613,
+        "after_hex": "0x352d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 12,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 12338,
+        "after_hex": "0x3032",
+        "function_code": "FC16"
+      },
+      {
+        "address": 13,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 8192,
+        "after_hex": "0x2000",
+        "function_code": "FC16"
+      },
+      {
+        "address": 14,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56846,
+        "after_hex": "0xde0e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 15,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56847,
+        "after_hex": "0xde0f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 16,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56848,
+        "after_hex": "0xde10",
+        "function_code": "FC16"
+      },
+      {
+        "address": 17,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56849,
+        "after_hex": "0xde11",
+        "function_code": "FC16"
+      },
+      {
+        "address": 18,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56850,
+        "after_hex": "0xde12",
+        "function_code": "FC16"
+      },
+      {
+        "address": 19,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56851,
+        "after_hex": "0xde13",
+        "function_code": "FC16"
+      },
+      {
+        "address": 20,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56852,
+        "after_hex": "0xde14",
+        "function_code": "FC16"
+      },
+      {
+        "address": 21,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56853,
+        "after_hex": "0xde15",
+        "function_code": "FC16"
+      },
+      {
+        "address": 22,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56854,
+        "after_hex": "0xde16",
+        "function_code": "FC16"
+      },
+      {
+        "address": 23,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56855,
+        "after_hex": "0xde17",
+        "function_code": "FC16"
+      },
+      {
+        "address": 24,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56856,
+        "after_hex": "0xde18",
+        "function_code": "FC16"
+      },
+      {
+        "address": 25,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56857,
+        "after_hex": "0xde19",
+        "function_code": "FC16"
+      },
+      {
+        "address": 26,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56858,
+        "after_hex": "0xde1a",
+        "function_code": "FC16"
+      },
+      {
+        "address": 27,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56859,
+        "after_hex": "0xde1b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 28,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56860,
+        "after_hex": "0xde1c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 29,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56861,
+        "after_hex": "0xde1d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 30,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56862,
+        "after_hex": "0xde1e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 31,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56863,
+        "after_hex": "0xde1f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 32,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56864,
+        "after_hex": "0xde20",
+        "function_code": "FC16"
+      },
+      {
+        "address": 33,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56865,
+        "after_hex": "0xde21",
+        "function_code": "FC16"
+      },
+      {
+        "address": 34,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56866,
+        "after_hex": "0xde22",
+        "function_code": "FC16"
+      },
+      {
+        "address": 35,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56867,
+        "after_hex": "0xde23",
+        "function_code": "FC16"
+      },
+      {
+        "address": 36,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56868,
+        "after_hex": "0xde24",
+        "function_code": "FC16"
+      },
+      {
+        "address": 37,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56869,
+        "after_hex": "0xde25",
+        "function_code": "FC16"
+      },
+      {
+        "address": 38,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56870,
+        "after_hex": "0xde26",
+        "function_code": "FC16"
+      },
+      {
+        "address": 39,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56871,
+        "after_hex": "0xde27",
+        "function_code": "FC16"
+      },
+      {
+        "address": 40,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56872,
+        "after_hex": "0xde28",
+        "function_code": "FC16"
+      },
+      {
+        "address": 41,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56873,
+        "after_hex": "0xde29",
+        "function_code": "FC16"
+      },
+      {
+        "address": 42,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56874,
+        "after_hex": "0xde2a",
+        "function_code": "FC16"
+      },
+      {
+        "address": 43,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56875,
+        "after_hex": "0xde2b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 44,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56876,
+        "after_hex": "0xde2c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 45,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56877,
+        "after_hex": "0xde2d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 46,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56878,
+        "after_hex": "0xde2e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 47,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56879,
+        "after_hex": "0xde2f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 48,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56880,
+        "after_hex": "0xde30",
+        "function_code": "FC16"
+      },
+      {
+        "address": 49,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56881,
+        "after_hex": "0xde31",
+        "function_code": "FC16"
+      },
+      {
+        "address": 50,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56882,
+        "after_hex": "0xde32",
+        "function_code": "FC16"
+      },
+      {
+        "address": 51,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56883,
+        "after_hex": "0xde33",
+        "function_code": "FC16"
+      },
+      {
+        "address": 52,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56884,
+        "after_hex": "0xde34",
+        "function_code": "FC16"
+      },
+      {
+        "address": 53,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56885,
+        "after_hex": "0xde35",
+        "function_code": "FC16"
+      },
+      {
+        "address": 54,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56886,
+        "after_hex": "0xde36",
+        "function_code": "FC16"
+      },
+      {
+        "address": 55,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56887,
+        "after_hex": "0xde37",
+        "function_code": "FC16"
+      },
+      {
+        "address": 56,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56888,
+        "after_hex": "0xde38",
+        "function_code": "FC16"
+      },
+      {
+        "address": 57,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56889,
+        "after_hex": "0xde39",
+        "function_code": "FC16"
+      },
+      {
+        "address": 58,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56890,
+        "after_hex": "0xde3a",
+        "function_code": "FC16"
+      },
+      {
+        "address": 59,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56891,
+        "after_hex": "0xde3b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 60,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56892,
+        "after_hex": "0xde3c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 61,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56893,
+        "after_hex": "0xde3d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 62,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56894,
+        "after_hex": "0xde3e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 63,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56895,
+        "after_hex": "0xde3f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 64,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56896,
+        "after_hex": "0xde40",
+        "function_code": "FC16"
+      },
+      {
+        "address": 65,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56897,
+        "after_hex": "0xde41",
+        "function_code": "FC16"
+      },
+      {
+        "address": 66,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56898,
+        "after_hex": "0xde42",
+        "function_code": "FC16"
+      },
+      {
+        "address": 67,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56899,
+        "after_hex": "0xde43",
+        "function_code": "FC16"
+      },
+      {
+        "address": 68,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56900,
+        "after_hex": "0xde44",
+        "function_code": "FC16"
+      },
+      {
+        "address": 69,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56901,
+        "after_hex": "0xde45",
+        "function_code": "FC16"
+      },
+      {
+        "address": 70,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56902,
+        "after_hex": "0xde46",
+        "function_code": "FC16"
+      },
+      {
+        "address": 71,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56903,
+        "after_hex": "0xde47",
+        "function_code": "FC16"
+      },
+      {
+        "address": 72,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56904,
+        "after_hex": "0xde48",
+        "function_code": "FC16"
+      },
+      {
+        "address": 73,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56905,
+        "after_hex": "0xde49",
+        "function_code": "FC16"
+      },
+      {
+        "address": 74,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56906,
+        "after_hex": "0xde4a",
+        "function_code": "FC16"
+      },
+      {
+        "address": 75,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56907,
+        "after_hex": "0xde4b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 76,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56908,
+        "after_hex": "0xde4c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 77,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56909,
+        "after_hex": "0xde4d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 78,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56910,
+        "after_hex": "0xde4e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 79,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56911,
+        "after_hex": "0xde4f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 80,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56912,
+        "after_hex": "0xde50",
+        "function_code": "FC16"
+      },
+      {
+        "address": 81,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56913,
+        "after_hex": "0xde51",
+        "function_code": "FC16"
+      },
+      {
+        "address": 82,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56914,
+        "after_hex": "0xde52",
+        "function_code": "FC16"
+      },
+      {
+        "address": 83,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56915,
+        "after_hex": "0xde53",
+        "function_code": "FC16"
+      },
+      {
+        "address": 84,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56916,
+        "after_hex": "0xde54",
+        "function_code": "FC16"
+      },
+      {
+        "address": 85,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56917,
+        "after_hex": "0xde55",
+        "function_code": "FC16"
+      },
+      {
+        "address": 86,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56918,
+        "after_hex": "0xde56",
+        "function_code": "FC16"
+      },
+      {
+        "address": 87,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56919,
+        "after_hex": "0xde57",
+        "function_code": "FC16"
+      },
+      {
+        "address": 88,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56920,
+        "after_hex": "0xde58",
+        "function_code": "FC16"
+      },
+      {
+        "address": 89,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56921,
+        "after_hex": "0xde59",
+        "function_code": "FC16"
+      },
+      {
+        "address": 90,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56922,
+        "after_hex": "0xde5a",
+        "function_code": "FC16"
+      },
+      {
+        "address": 91,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56923,
+        "after_hex": "0xde5b",
+        "function_code": "FC16"
+      },
+      {
+        "address": 92,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56924,
+        "after_hex": "0xde5c",
+        "function_code": "FC16"
+      },
+      {
+        "address": 93,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56925,
+        "after_hex": "0xde5d",
+        "function_code": "FC16"
+      },
+      {
+        "address": 94,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56926,
+        "after_hex": "0xde5e",
+        "function_code": "FC16"
+      },
+      {
+        "address": 95,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56927,
+        "after_hex": "0xde5f",
+        "function_code": "FC16"
+      },
+      {
+        "address": 96,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56928,
+        "after_hex": "0xde60",
+        "function_code": "FC16"
+      },
+      {
+        "address": 97,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56929,
+        "after_hex": "0xde61",
+        "function_code": "FC16"
+      },
+      {
+        "address": 98,
+        "before_dec": 17,
+        "before_hex": "0x0011",
+        "after_dec": 56930,
+        "after_hex": "0xde62",
+        "function_code": "FC16"
+      }
+    ],
+    "coils": [
+      {
+        "address": 0,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 1,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 2,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 3,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 4,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 5,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 6,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 7,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 8,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 9,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 10,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 11,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 12,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 13,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      },
+      {
+        "address": 14,
+        "before": 1,
+        "after": 0,
+        "function_code": "FC15"
+      },
+      {
+        "address": 15,
+        "before": 1,
+        "after": 1,
+        "function_code": "FC15"
+      }
+    ],
+    "input_registers_unchanged": true,
+    "discrete_inputs_unchanged": true
+  },
+  "summary": {
+    "holding_changed": 99,
+    "coils_changed": 8
+  }
+}

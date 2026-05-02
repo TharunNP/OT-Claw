@@ -1,0 +1,5 @@
+unit=1 bytes=18 payload_hex=50796d6f646275732d504d2d322e332e30ff ascii='Pymodbus-PM-2.3.0�'
+unit=2 bytes=18 payload_hex=50796d6f646275732d504d2d322e332e30ff ascii='Pymodbus-PM-2.3.0�'
+unit=3 bytes=18 payload_hex=50796d6f646275732d504d2d322e332e30ff ascii='Pymodbus-PM-2.3.0�'
+unit=247 bytes=18 payload_hex=50796d6f646275732d504d2d322e332e30ff ascii='Pymodbus-PM-2.3.0�'
+unit=255 bytes=18 payload_hex=50796d6f646275732d504d2d322e332e30ff ascii='Pymodbus-PM-2.3.0�'

@@ -1,0 +1,8 @@
+# Nmap 7.94SVN scan initiated Sat May  2 14:35:45 2026 as: nmap -sT -Pn -T2 -p 502 --script modbus-discover --script-args=modbus-discover.aggressive=false -oN nmap-modbus-discover.txt 192.168.1.95
+Nmap scan report for 192.168.1.95
+Host is up.
+
+PORT    STATE    SERVICE
+502/tcp filtered mbap
+
+# Nmap done at Sat May  2 14:35:47 2026 -- 1 IP address (1 host up) scanned in 2.49 seconds

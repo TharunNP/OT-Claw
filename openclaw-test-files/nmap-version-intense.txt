@@ -1,0 +1,13 @@
+# Nmap 7.94SVN scan initiated Sat May  2 14:35:47 2026 as: nmap -sT -Pn -T2 -sV --version-intensity 9 -p 502 -oN nmap-version-intense.txt 192.168.1.95
+Nmap scan report for 192.168.1.95
+Host is up (0.0015s latency).
+
+PORT    STATE SERVICE VERSION
+502/tcp open  mbap?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port502-TCP:V=7.94SVN%I=9%D=5/2%Time=69F652E0%P=x86_64-pc-linux-gnu%r(i
+SF:bm-db2,9,"\x01\xc2\0\0\0\x03\0\x80\x01")%r(minecraft-ping,9,"\0\0\0\0\0
+SF:\x03\0\xfe\x01");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May  2 14:42:57 2026 -- 1 IP address (1 host up) scanned in 430.04 seconds

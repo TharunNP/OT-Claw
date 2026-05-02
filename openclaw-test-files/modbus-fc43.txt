@@ -1,0 +1,28 @@
+--- FC43 Read Device Identification against 192.168.1.95:502 (read-only) ---
+
+[unit=0 read-code=1 (Basic)]
+unit=0 MEI=0x01 RDIcode=131 conformity=0x00 more=0 next=0x03 numObjects=0
+
+[unit=0 read-code=2 (Regular)]
+unit=0 MEI=0x02 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0
+
+[unit=0 read-code=3 (Extended)]
+unit=0 MEI=0x03 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0
+
+[unit=1 read-code=1 (Basic)]
+unit=1 MEI=0x01 RDIcode=131 conformity=0x00 more=0 next=0x03 numObjects=0
+
+[unit=1 read-code=2 (Regular)]
+unit=1 MEI=0x02 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0
+
+[unit=1 read-code=3 (Extended)]
+unit=1 MEI=0x03 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0
+
+[unit=255 read-code=1 (Basic)]
+unit=255 MEI=0x01 RDIcode=131 conformity=0x00 more=0 next=0x03 numObjects=0
+
+[unit=255 read-code=2 (Regular)]
+unit=255 MEI=0x02 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0
+
+[unit=255 read-code=3 (Extended)]
+unit=255 MEI=0x03 RDIcode=131 conformity=0x00 more=0 next=0x06 numObjects=0

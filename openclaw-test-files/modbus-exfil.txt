@@ -1,0 +1,59 @@
+======================================================================
+DATA EXFILTRATION — pymodbus simulator at 192.168.1.95:502
+======================================================================
+
+[1] Full holding-register dump (unit=1, addr 0..98) ---
+  read 99 holding registers; 0 non-default values: {}
+
+[2] Full input-register dump (unit=1, addr 0..98) ---
+  read 99 input registers; 0 non-default values: {}
+
+[3] Full coil dump (unit=1, addr 0..15) ---
+  coils[0..15] hex = ffff
+
+[4] Full discrete-input dump (unit=1, addr 0..15) ---
+  disc-in[0..15] hex = ffff
+
+[5] Cross-unit register comparison (units 1, 2, 5, 10, 50, 100, 200, 246) ---
+  unit   1: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit   2: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit   5: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit  10: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit  50: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit 100: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit 200: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  unit 246: holding[0..9] = [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+
+[6] FC20 Read File Record — attempting file/record enumeration ---
+
+[7] FC8 Diagnostic — extended sub-codes ---
+  sub=0x00 ReturnQueryData              value=0x0000
+  sub=0x01 RestartCommunications        value=0x0000
+  sub=0x02 ReturnDiagnosticRegister     value=0x0000
+  sub=0x03 ChangeASCIIInputDelim        value=0x0000
+  sub=0x04 -> short 
+  sub=0x0a ClearCounters                value=0x0000
+
+[8] FC11 Get Comm Event Counter / FC12 Get Comm Event Log ---
+  FC11 event counter: 00000000
+  FC12 event log: 06000000000000
+
+[9] Saving structured exfil to modbus-exfil.json
+  done
+
+[10] Threat-actor write capability summary ---
+  FC5  Write Single Coil      : ACCEPTED (no auth)
+  FC6  Write Single Register  : ACCEPTED (no auth)
+  FC15 Write Multiple Coils   : ACCEPTED (no auth)
+  FC16 Write Multiple Registers: ACCEPTED (no auth)
+  FC22 Mask Write Register    : ACCEPTED (no auth)
+  FC23 R/W Multiple Registers : ACCEPTED (no auth)
+  -> This server has zero write-protection. A threat actor on this segment
+     could force any coil state and arbitrary register values within addr 0..98/0..15.
+
+[11] Demonstration: bulk-zero all writable registers, then restore
+  bulk-zero 99 holding registers -> ok
+  read-back: all zeros? True
+  restored: matches originals? True
+
+EXFIL COMPLETE

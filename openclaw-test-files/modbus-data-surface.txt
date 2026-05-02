@@ -1,0 +1,41 @@
+=== FC1 Read Coils ===
+  coils[0..15]: bytes=2 hex=ffff
+  coils[100..115]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  coils[1000..1015]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  coils[9999..10014]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+
+=== FC2 Read Discrete Inputs ===
+  disc-in[0..15]: bytes=2 hex=ffff
+  disc-in[100..115]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  disc-in[1000..1015]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  disc-in[9999..10014]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+
+=== FC3 Read Holding Registers ===
+  holding[0..9]: [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  holding[100..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[1000..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[9999..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[65520..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+
+=== FC4 Read Input Registers ===
+  input[0..9]: [17, 17, 17, 17, 17, 17, 17, 17, 17, 17]
+  input[100..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  input[1000..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  input[9999..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+
+=== Map address-space limits (binary search via FC3) ===
+  highest readable holding-register address: 98
+
+=== Sample of distinct values across address space ===
+  holding[0..3]: [17, 17, 17, 17]
+  holding[32..35]: [17, 17, 17, 17]
+  holding[64..67]: [17, 17, 17, 17]
+  holding[128..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[256..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[512..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[1024..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[2048..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[4096..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[8192..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[16384..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  holding[32768..]: EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)

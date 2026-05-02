@@ -1,0 +1,20 @@
+# Nmap 7.94SVN scan initiated Sat May  2 14:41:40 2026 as: nmap -sT -Pn -T3 -p 102,502,2404,4840,20000,44818,47808,1911,9600,80,443,22,23 --max-retries 1 --host-timeout 60s -oN nmap-quick-state.txt 192.168.1.95
+Nmap scan report for 192.168.1.95
+Host is up (0.00080s latency).
+
+PORT      STATE    SERVICE
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+80/tcp    filtered http
+102/tcp   filtered iso-tsap
+443/tcp   filtered https
+502/tcp   open     mbap
+1911/tcp  filtered mtp
+2404/tcp  filtered iec-104
+4840/tcp  filtered opcua-tcp
+9600/tcp  filtered micromuse-ncpw
+20000/tcp filtered dnp
+44818/tcp filtered EtherNetIP-2
+47808/tcp filtered bacnet
+
+# Nmap done at Sat May  2 14:41:43 2026 -- 1 IP address (1 host up) scanned in 3.27 seconds

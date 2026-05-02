@@ -1,0 +1,747 @@
+# Nmap 7.94SVN scan initiated Sat May  2 14:42:08 2026 as: nmap -sT -Pn -T3 -p 502 --script modbus-discover --script-args=modbus-discover.aggressive=true --max-retries 2 --host-timeout 120s -oN nmap-modbus-discover-aggressive.txt 192.168.1.95
+Nmap scan report for 192.168.1.95
+Host is up (0.0019s latency).
+
+PORT    STATE SERVICE
+502/tcp open  modbus
+| modbus-discover: 
+|   sid 0x1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x10: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x11: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x12: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x13: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x14: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x15: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x16: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x17: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x18: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x19: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x1f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x20: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x21: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x22: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x23: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x24: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x25: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x26: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x27: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x28: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x29: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x2f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x30: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x31: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x32: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x33: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x34: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x35: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x36: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x37: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x38: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x39: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x3f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x40: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x41: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x42: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x43: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x44: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x45: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x46: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x47: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x48: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x49: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x4f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x50: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x51: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x52: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x53: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x54: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x55: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x56: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x57: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x58: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x59: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x5f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x60: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x61: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x62: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x63: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x64: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x65: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x66: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x67: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x68: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x69: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x6f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x70: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x71: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x72: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x73: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x74: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x75: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x76: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x77: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x78: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x79: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x7f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x80: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x81: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x82: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x83: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x84: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x85: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x86: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x87: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x88: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x89: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x8f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x90: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x91: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x92: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x93: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x94: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x95: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x96: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x97: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x98: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x99: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9a: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9b: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9c: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9d: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9e: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0x9f: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xa9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xaa: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xab: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xac: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xad: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xae: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xaf: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xb9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xba: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xbb: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xbc: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xbd: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xbe: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xbf: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xc9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xca: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xcb: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xcc: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xcd: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xce: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xcf: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xd9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xda: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xdb: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xdc: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xdd: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xde: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xdf: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe7: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe8: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xe9: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xea: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xeb: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xec: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xed: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xee: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xef: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf0: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf1: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf2: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf3: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf4: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf5: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|     Device identification: Pymodbus PM 2.3.0
+|   sid 0xf6: 
+|     Slave ID data: Pymodbus-PM-2.3.0\xFF
+|_    Device identification: Pymodbus PM 2.3.0
+
+# Nmap done at Sat May  2 14:42:09 2026 -- 1 IP address (1 host up) scanned in 1.18 seconds

@@ -1,0 +1,52 @@
+======================================================================
+WRITE PROBE — pymodbus simulator at 192.168.1.95:502 unit=1
+Methodology: read original, write distinctive value, read back, restore
+======================================================================
+
+=== FC6 Write Single Register (addr=50) ===
+  orig holding[50] = 0x0011 (17)
+  write 0xcafe -> ok, resp=0032cafe
+  read-back holding[50] = 0xcafe (51966)  ==>  WRITE ACCEPTED
+  restored to 0x0011
+
+=== FC5 Write Single Coil (addr=8) ===
+  orig coils[0..15] = ffff
+  write coil[8] = OFF -> ok
+  read-back coils[0..15] = fffe  bit8 was 1 now 0  ==>  WRITE ACCEPTED
+  restored coil[8] to ON
+
+=== FC16 Write Multiple Registers (addr=70..73) ===
+  orig holding[70..73] = ['0x11', '0x11', '0x11', '0x11']
+  write 4 regs -> ok
+  read-back holding[70..73] = ['0xdead', '0xbeef', '0xcafe', '0xf00d']  ==>  WRITE ACCEPTED
+  restored
+
+=== FC15 Write Multiple Coils (addr=0..7) ===
+  orig coils[0..7] = 0xff
+  write 0xA5 -> ok
+  read-back coils[0..7] = 0xa5  ==>  WRITE ACCEPTED
+  restored to 0xff
+
+=== Out-of-range write attempts (should be rejected) ===
+  FC6 write holding[200] = 0x1234 -> EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  FC6 write holding[1000] = 0x1234 -> EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+  FC6 write holding[65535] = 0x1234 -> EXCEPTION ec=2 (ILLEGAL_DATA_ADDRESS)
+
+=== FC8 Diagnostic Counters (read-only) ===
+  BusMessageCount (0x0b) = 0
+  BusCommErrCount (0x0c) = 0
+  BusExceptionErrCount (0x0d) = 0
+  SlaveMessageCount (0x0e) = 0
+  SlaveNoResponseCount (0x0f) = 0
+  SlaveNAKCount (0x10) = 0
+  SlaveBusyCount (0x11) = 0
+  BusCharacterOverrunCount (0x12) = 0
+
+=== FC20 Read File Record (probe) ===
+  FC20 file=1 rec=0 len=10 -> ok
+
+=== FC22 Mask Write Register (probe) ===
+  FC22 mask-write addr=50 (no-op) -> ok, resp=0032ffff0000
+
+=== FC23 Read/Write Multiple Registers (probe, no-op write) ===
+  FC23 read[0..3]+write[80..81]=[17, 17] -> ok, resp_len=9

